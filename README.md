@@ -4,10 +4,11 @@ Post-match review and team tools for VALORANT players (Windows, free).
 
 VALORANT プレイヤーのための、試合後の振り返りとチームプレイ支援ツール（Windows 用・無料）。
 
-- Website / 公式サイト: https://oriveil.app/ （公開準備中）
-- Privacy Policy / プライバシーポリシー: https://oriveil.app/en/privacy.html （公開準備中）
-- Terms of Service / 利用規約: https://oriveil.app/en/terms.html （公開準備中）
-- Reviewer Guide / 審査・API 利用説明: https://oriveil.app/en/guide.html （公開準備中）
+- Website / 公式サイト: https://oriveil.app/
+- Privacy Policy / プライバシーポリシー: https://oriveil.app/en/privacy.html
+- Terms of Service / 利用規約: https://oriveil.app/en/terms.html
+- Reviewer Guide / 審査・API 利用説明: https://oriveil.app/en/guide.html
+- Contact / お問い合わせ: https://oriveil.app/en/contact.html
 
 > This repository only hosts release files (installers). The source code is not published here.
 >
@@ -42,9 +43,9 @@ The files are not code-signed yet, so Windows SmartScreen may show a warning on 
 
 ## Status / 提供状況
 
-Riot account linking and official match data will be enabled only after Riot Games approves our Production API key. Until then the app runs in Demo Mode with sample data labeled "DEMO".
+Riot Games Production API application is being prepared. Riot account linking and official match data are not currently available. Until approval and integration, ORIVEIL runs in Demo Mode with sample data labeled "DEMO".
 
-Riot アカウント連携と公式APIからの試合データ取得は、Riot Gamesの承認後に提供します。それまではデモモード（DEMO表示のサンプルデータ）で動作します。
+Riot Games Production APIは現在申請準備中です。公式アカウント連携と試合データ取得はまだ利用できません。承認と連携実装が完了するまでは、デモモードで動作します。
 
 ## Upgrading from VALO NEXUS / 旧名称（VALO NEXUS）から
 
