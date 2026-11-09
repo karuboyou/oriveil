@@ -20,26 +20,26 @@ Download from the [Releases](../../releases) page.
 
 | File | Description | Size |
 | --- | --- | --- |
-| `ORIVEIL-Setup-1.1.1.exe` | Installer (per-user, no admin rights) / インストーラー（管理者権限不要） | 117 MB |
-| `ORIVEIL-Portable-1.1.1.exe` | Portable (no installation) / ポータブル版（インストール不要） | 371 MB |
-| `ORIVEIL-1.1.1-SHA256SUMS.txt` | SHA-256 checksums / チェックサム | — |
+| `ORIVEIL-Setup-1.1.2.exe` | Installer (per-user, no admin rights) / インストーラー（管理者権限不要） | 117 MB |
+| `ORIVEIL-Portable-1.1.2.exe` | Portable (no installation) / ポータブル版（インストール不要） | 371 MB |
+| `ORIVEIL-1.1.2-SHA256SUMS.txt` | SHA-256 checksums / チェックサム | — |
 
 Requirements / 動作環境: Windows 10 / 11 (64-bit)
 
 ### Verify the download / ダウンロードしたファイルの確認
 
 ```powershell
-Get-FileHash .\ORIVEIL-Setup-1.1.1.exe -Algorithm SHA256
-Get-FileHash .\ORIVEIL-Portable-1.1.1.exe -Algorithm SHA256
+Get-FileHash .\ORIVEIL-Setup-1.1.2.exe -Algorithm SHA256
+Get-FileHash .\ORIVEIL-Portable-1.1.2.exe -Algorithm SHA256
 ```
 
-Compare the result with `ORIVEIL-1.1.1-SHA256SUMS.txt`.
+Compare the result with `ORIVEIL-1.1.2-SHA256SUMS.txt`.
 
 表示された値がチェックサムファイルと一致することを確認してください。
 
-The files are not code-signed yet, so Windows SmartScreen may show a warning on first launch.
+The files are not code-signed yet, so Windows may show “Windows protected your PC” when you open the downloaded file, with the publisher shown as “Unknown publisher” (this is because the file is unsigned, not because it is damaged). Make sure you downloaded it from https://oriveil.app or this repository and that its SHA-256 matches the checksum file, then choose “More info” → “Run anyway”. If it does not match, do not run it — delete it.
 
-現在の配布ファイルにはコード署名がないため、初回起動時にSmartScreenの警告が出ることがあります。発行元とチェックサムを確認し、安全性に納得できる場合のみ実行してください。
+配布ファイルにはまだコード署名がないため、ダウンロードしたファイルを開くと「Windows によって PC が保護されました」と表示されることがあります。このとき発行元は「不明な発行元」と表示されます（署名がないためで、ファイルの異常ではありません）。ダウンロード元が https://oriveil.app またはこのリポジトリであることと、SHA-256 がチェックサムファイルと一致することを確認してから、「詳細情報」→「実行」を選んでください。一致しない場合は実行せずに削除してください。
 
 ## Status / 提供状況
 
